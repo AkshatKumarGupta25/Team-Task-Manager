@@ -1,0 +1,10 @@
+{"level":"error","message":"error - Cannot set property query of #<IncomingMessage> which has only a getter - /api/v1/auth/register - POST - ::1","timestamp":"2026-05-03 03:46:57"}
+{"level":"error","message":"error - Cannot set property query of #<IncomingMessage> which has only a getter - /api/v1/auth/register - POST - ::1","timestamp":"2026-05-03 03:47:06"}
+{"level":"error","message":"error - Cannot set property query of #<IncomingMessage> which has only a getter - /api/v1/auth/register - POST - ::1","timestamp":"2026-05-03 03:47:15"}
+{"level":"error","message":"error - Cannot set property query of #<IncomingMessage> which has only a getter - /api/v1/auth/register - POST - ::1","timestamp":"2026-05-03 03:48:39"}
+{"level":"error","message":"error - next is not a function - /api/v1/auth/register - POST - ::1","timestamp":"2026-05-03 03:50:45"}
+{"level":"error","message":"error - next is not a function - /api/v1/auth/register - POST - ::1","timestamp":"2026-05-03 03:50:52"}
+{"level":"error","message":"fail - Incorrect email or password - /api/v1/auth/login - POST - ::1","timestamp":"2026-05-03 03:55:59"}
+{"level":"error","message":"fail - You are not logged in! Please log in to get access. - /api/v1/auth/refresh - GET - ::1","timestamp":"2026-05-03 03:55:59"}
+{"level":"error","message":"fail - Incorrect email or password - /api/v1/auth/login - POST - ::1","timestamp":"2026-05-03 03:56:56"}
+{"level":"error","message":"fail - You are not logged in! Please log in to get access. - /api/v1/auth/refresh - GET - ::1","timestamp":"2026-05-03 03:56:56"}

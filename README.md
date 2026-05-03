@@ -12,7 +12,7 @@ Team Task Manager is an enterprise-grade, highly scalable full-stack web applica
 
 ## 🚀 Live Demo & Credentials
 
-**Live Demo URL:** `https://teamtask-production.up.railway.app` *(Placeholder - Deployment pending)*
+**Live Demo URL:** `[https://teamtask-production.up.railway.app](https://team-task-manager-6200.up.railway.app/login)`
 
 ### Demo Accounts
 | Role | Email | Password |
@@ -133,18 +133,3 @@ npm run dev
 The application will be running at `http://localhost:5173`.
 
 ---
-
-## 🌐 Deployment (Railway)
-
-This application is configured for seamless deployment on Railway.
-
-1. Create a new project on [Railway](https://railway.app/).
-2. Provision a **MongoDB** plugin within Railway (or link an external Atlas cluster).
-3. Connect your GitHub repository to Railway.
-4. Set up two services:
-   - **Backend:** Set the root directory to `/backend`. Add environment variables from `.env`. Set the start command to `node server.js`.
-   - **Frontend:** Set the root directory to `/frontend`. Railway automatically detects Vite and builds the static assets.
-5. Update the `FRONTEND_URL` in the backend environment variables to match the generated Railway frontend domain to allow CORS.
-
----
-*Built to demonstrate scalable engineering, clean architecture, and modern full-stack best practices.*

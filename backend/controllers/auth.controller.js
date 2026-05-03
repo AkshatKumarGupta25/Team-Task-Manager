@@ -25,7 +25,7 @@ exports.refreshToken = catchAsync(async (req, res, next) => {
     expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
-    sameSite: 'strict'
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict'
   };
 
   res.cookie('jwt_refresh', newRefreshToken, cookieOptions);
@@ -44,7 +44,9 @@ exports.logout = catchAsync(async (req, res, next) => {
 
   res.cookie('jwt_refresh', 'loggedout', {
     expires: new Date(Date.now() + 10 * 1000),
-    httpOnly: true
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict'
   });
   res.status(200).json({ success: true, message: 'Logged out successfully' });
 });
@@ -53,7 +55,9 @@ exports.logoutAll = catchAsync(async (req, res, next) => {
   await authService.logoutAll(req.user._id);
   res.cookie('jwt_refresh', 'loggedout', {
     expires: new Date(Date.now() + 10 * 1000),
-    httpOnly: true
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict'
   });
   res.status(200).json({ success: true, message: 'Logged out from all devices' });
 });

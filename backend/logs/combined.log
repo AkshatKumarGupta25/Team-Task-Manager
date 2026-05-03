@@ -29,3 +29,6 @@
 {"level":"error","message":"error - Task validation failed: assignedTo: Cast to ObjectId failed for value \"\" (type string) at path \"assignedTo\" - /api/v1/tasks - POST - ::1","timestamp":"2026-05-03 04:23:02"}
 {"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-05-03 15:17:38"}
 {"level":"info","message":"MongoDB Connected: ac-d27dy2y-shard-00-01.dqpbtm1.mongodb.net","timestamp":"2026-05-03 15:17:38"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-05-03 15:42:20"}
+{"level":"info","message":"MongoDB Connected: ac-d27dy2y-shard-00-02.dqpbtm1.mongodb.net","timestamp":"2026-05-03 15:42:21"}
+{"level":"info","message":"MongoDB Connected","timestamp":"2026-05-03 15:42:21"}

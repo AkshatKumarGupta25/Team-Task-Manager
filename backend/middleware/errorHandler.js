@@ -51,13 +51,16 @@ const sendErrorProd = (err, req, res) => {
     });
   }
   
-  // Programming or other unknown error: don't leak error details
+  // Programming or other unknown error: don't leak error details (temporarily exposed for debugging)
   logger.error('ERROR 💥', err);
+  console.error('FULL ERROR:', err);
   
   return res.status(500).json({
     success: false,
     status: 'error',
-    message: 'Something went very wrong!'
+    message: err.message || 'Something went very wrong!',
+    stack: err.stack,
+    fullError: err
   });
 };
 

@@ -1,9 +1,19 @@
 # Team Task Manager - Enterprise Grade Application
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
+![Deployment](https://img.shields.io/badge/Deploy-Railway-6A5ACD?style=for-the-badge&logo=railway)
+![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)
 
-![Project Status](https://img.shields.io/badge/Status-Production%20Ready-success)
-![React](https://img.shields.io/badge/Frontend-React.js%20%2B%20Vite-blue)
-![Backend](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-green)
-![DB](https://img.shields.io/badge/Database-MongoDB%20Atlas-brightgreen)
+![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Backend](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-339933?style=for-the-badge&logo=node.js)
+![Database](https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb)
+
+![State](https://img.shields.io/badge/State-Redux%20Toolkit-764ABC?style=for-the-badge&logo=redux)
+![Realtime](https://img.shields.io/badge/Realtime-Socket.io-010101?style=for-the-badge&logo=socket.io)
+![Auth](https://img.shields.io/badge/Auth-JWT%20%2B%20RBAC-orange?style=for-the-badge&logo=jsonwebtokens)
+
+![API](https://img.shields.io/badge/API-RESTful-blue?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-Service%20Layer%20Pattern-important?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-OWASP%20Protected-critical?style=for-the-badge)
 
 ## 📖 Project Overview
 Team Task Manager is an enterprise-grade, highly scalable full-stack web application designed for engineering teams to manage projects and track tasks efficiently. Built with modern web development practices, it features robust role-based access control, real-time updates, advanced security measures, and a premium UI experience.

@@ -12,7 +12,7 @@ Team Task Manager is an enterprise-grade, highly scalable full-stack web applica
 
 ## 🚀 Live Demo & Credentials
 
-**Live Demo URL:** `[https://teamtask-production.up.railway.app](https://team-task-manager-6200.up.railway.app/login)`
+**Live Demo URL:** `https://team-task-manager-6200.up.railway.app`
 
 ### Demo Accounts
 | Role | Email | Password |

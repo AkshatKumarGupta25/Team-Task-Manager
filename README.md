@@ -17,8 +17,8 @@ Team Task Manager is an enterprise-grade, highly scalable full-stack web applica
 ### Demo Accounts
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@teamtask.com | Password123! |
-| Member| member@teamtask.com| Password123! |
+| Admin | admin@demo.com | password123 |
+| Member| bob@demo.com| password123 |
 
 ---
 
@@ -108,7 +108,7 @@ Base URL: `/api/v1`
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/team-task-manager.git
+git clone https://github.com/AkshatKumarGupta25/Team-Task-Manager.git
 cd team-task-manager
 ```
 
